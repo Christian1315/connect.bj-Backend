@@ -1,0 +1,1395 @@
+/* ======= GENERAL ========= */
+* {
+    font-family: 'Poppins';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+    font-family: 'Poppins' !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-green {
+    background-color: #108757;
+}
+
+.text-green {
+    color: #108757;
+}
+
+.bg-red {
+    background-color: #E92D38;
+}
+
+.text-red {
+    color: #E92D38;
+}
+
+.text-red {
+    color: #E92D38;
+}
+
+.bg-yellow {
+    background-color: #FBD142;
+}
+
+.my-btn {
+    border-radius: 30px;
+    padding: 3px;
+    border-color: transparent;
+}
+
+/* ======= PAGE D'ACCEUIL ========= */
+
+/* °°°°°°°°°°°°°°°°° HEADER °°°°°°°°°°°°°° */
+
+/* ++++++ SOUS  SECTION NOIR +++++++++ */
+#black-section {
+    background-color: #000;
+}
+
+#black-section a {
+    color: #fff;
+    font-size: 14px;
+}
+
+#black-section a img.icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* ++++++ SOUS  SECTION VERTE OU NAVBAR +++++++++ */
+.btn {
+    border-radius: 10px !important;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#nav-bar .navbar-toggler {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+/* .navbar-toggler-icon{
+    color:#fff;
+} */
+
+#nav-bar img.logo {
+    width: 207px;
+}
+
+#nav-bar .login {
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-bar .follow {
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* °°°°°°°°°°°°°°°°°SECTION FAI EN CAROUSEL °°°°°°°°°°°°°° */
+#fai-section a.uk-position-small {
+    color: #fff;
+    background-color: #000;
+}
+
+#fai-section img {
+    width: 100px;
+}
+
+/* °°°°°°°°°°°°°°°°° SECTION BADGE °°°°°°°°°°°°°° */
+#badge-section {
+    margin-top: 100px;
+}
+
+.badge-title {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.badge-content {
+    text-align: center;
+    color: #000;
+}
+
+#badge-section .bdge {
+    background-color: #c9c9c9;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+/* #badge-section .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    margin-left:32%;
+    margin-top: -50px;
+    margin-bottom: -30px;
+} */
+
+#badge-section .bdge img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -50px;
+}
+
+/* °°°°°°°°°°°°°°°°° SECTION RECHERCHE °°°°°°°°°°°°°° */
+
+
+/* ++++++ SOUS  SECTION BOUTTON DE RECHERCHE +++++++++ */
+
+#search-section .title {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#search-section .title-mobile {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#search-section {
+    margin-top: 50px;
+}
+
+#search-section .nav-pills {
+    border-radius: 56px;
+    padding: 3px 2px 3px 50px;
+}
+
+#search-section .nav-link {
+    /* background-color: #fff !important; */
+    border-radius: 56px;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 10px 50px 10px 50px;
+
+}
+
+#search-section .nav-link.active {
+    background-color: #fff !important;
+    border-radius: 56px;
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 10px 50px 10px 50px;
+}
+
+
+#search-section .nav-pills-mobile {
+    border-radius: 20px;
+    padding: 15px 15px 15px 15px;
+}
+
+#search-section .nav-pills-mobile .nav-link {
+    background-color: transparent !important;
+    border-radius: 56px;
+    color: #fff !important;
+    border: solid 1px #fff;
+    /* font-size: 10px !important; */
+    font-weight: bold !important;
+    padding: 10px;
+    text-align: center !important;
+}
+
+#search-section .nav-pills-mobile .nav-link.active {
+    background-color: #fff !important;
+    border-radius: 56px;
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 10px;
+}
+
+
+
+
+/* RECHERCHE DES FAIs  */
+
+#fai-servers #search-section .nav-link {
+    color: #fff;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 10px 50px 10px 50px;
+}
+
+#fai-servers #search-section .nav-pills-mobile {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#fai-servers #search-section .nav-pills-mobile h1 {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins'
+}
+
+
+#fai-servers #search-section .nav-pills-mobile .search-input {
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+#fai-servers #search-section .nav-pills-mobile .search-input::placeholder {
+    font-size: 10px;
+}
+
+#fai-servers #search-section .nav-pills-mobile .search-boutton {
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+/* ++++++ SOUS  SECTION CONTENU DE RECHERCHE +++++++++ */
+
+#pills-company,
+#pills-particular {
+    margin-top: 50px;
+}
+
+#pills-company .company,
+#pills-particular .particular {
+    background-image: url('../img/fai.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pills-company .company,
+#pills-particular .particular {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#pills-company .subscription-title,
+#pills-particular .subscription-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+#pills-company .subscription-title-mobile,
+#pills-particular .subscription-title-mobile {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+#pills-company .subscription-content,
+#pills-particular .subscription-content {
+    color: #fff;
+    text-align: center;
+}
+
+#pills-company .company-action,
+#pills-particular .particular-action {
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 25;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 100px 0px 100px
+}
+
+.company-action-mobile {
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 25;
+    font-weight: bold;
+    text-decoration: none;
+    /* margin:0px 20px 0px 20px */
+}
+
+.company-action-reabonnement-mobile {
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    font-size: 25;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#pills-company .company-action:hover,
+#pills-particular .particular-action:hover {
+    color: #E92D38;
+}
+
+/* °°°°°°°°°°°°°°°°° SECTION COMMENT ça FONTIONNE °°°°°°°°°°°°°° */
+
+#work-section {
+    margin-top: 100px;
+}
+
+#work-section .work-title {
+    color: #000;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+#work-section .work-title-mobile {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#work-section .work-content {
+    color: #212121;
+}
+
+#work-section .work-boutton {
+    /* border-radius: 30px; */
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* °°°°°°°°°°°°°°°°° SECTION BARE DE RECHERCHE DES FAIS °°°°°°°°°°°°°° */
+#search-section.title {
+    color: #000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#search-section .search-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -35px;
+    margin-right: 35px;
+    font-family: 'Poppins';
+}
+
+#search-section .search-title-mobile {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#search-section form .search-input {
+    border-radius: 30px;
+}
+
+#search-section form .search-input::placeholder {
+    color: #000;
+    font-style: italic;
+    font-size: 15px;
+    text-align: left;
+}
+
+#search-section .search-boutton {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 2px 30px 2px 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#search-section .nav-pills-mobile .search-boutton {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 2px 10px 2px 10px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* °°°°°°°°°°°°°°°°° SECTION FAI RESULT °°°°°°°°°°°°°°°°° */
+#search-result {
+    margin-top: 50px;
+}
+
+#search-result .fai-block {
+    background-color: #EFEFEF;
+    /* border-radius: 50px; */
+    margin-bottom: 20px;
+}
+
+#search-result .fai-block img {
+    /* border-radius: 50px; */
+    width: 100% !important;
+    height: 250px;
+}
+
+#search-result p.status {
+    color: #108757;
+    font-size: 15px;
+}
+
+#search-result .fai-content {
+    color: #000;
+    /* font-size: 20px; */
+    /* text-align:justify; */
+    margin-top: 20px;
+}
+
+img.status-img {
+    width: 36px !important;
+    height: 34px !important;
+}
+
+#search-result .status span {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    /* color: #108757; */
+}
+
+/* #search-result .fai-title {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+} */
+
+#search-result .fai-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#search-result .fai-title-mobile {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#search-result .fai-content {
+    color: #000;
+    /* font-size: 20px; */
+    text-align: center;
+    margin-top: -3px;
+}
+
+#search-result .my-btn {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    /* padding: 10px 30px 10px 30px; */
+}
+
+#search-result .my-btn-mobile {
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    /* margin:0px 100px 0px 100px */
+}
+
+
+.fai-body {
+    margin-bottom: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination .uk-pagination a {
+    color: #E92D38;
+}
+
+.uk-active {
+    color: #108757 !important;
+}
+
+
+/* °°°°°°°°°°°°°°°°°°°°°° SECTION PROBLEME °°°°°°°°°°°°°°°°°°° */
+
+#probleme {
+    margin-top: 50px;
+}
+
+#probleme .probleme {
+    font-size: 25px;
+    font-weight: bold;
+    color: #E92D38;
+    border-color: #E92D38;
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+#probleme .probleme-mobile {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E92D38;
+    border-color: #E92D38;
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+#probleme .contact {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    border-color: transparent;
+    background-color: #108757;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+#probleme .contact-mobile {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    border-color: transparent;
+    background-color: #108757;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+/* °°°°°°°°°°°°°°° SECTION TESTIMONY °°°°°°°°°°°°°°°°°°°°° */
+
+#testimony-section {
+    margin-top: 100px;
+}
+
+#testimony-section .testimony-title {
+    color: #000;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Poppins';
+}
+
+#testimony-section .testimony-title-mobile {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.second-title {
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.second-title-mobile {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.text-comment,
+.testimony-content {
+    color: #212121;
+}
+
+#testimony-section .name {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+#testimony-section .name-title {
+    color: #212121;
+    font-size: 18px;
+
+
+}
+
+#testimony-section .testifyer-img {
+    border-radius: 44px !important;
+}
+
+/* °°°°°°°°°°°°°°°° SECTION PARTENANIRES °°°°°°°°°°°°°*/
+#partner-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#partner-section .partner-title {
+    color: #000;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#partner-section .partner-title-mobile {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#partner-section .partner-slide-block {
+    border-right: #108757 solid 5px;
+}
+
+#partner-section .partner-button {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* °°°°°°°°°°°°°° OFFRES & SERVICES °°°°°°°°°°°° */
+#folow_banner img {
+    width: 1366px;
+    height: 260px;
+}
+
+
+
+/* =================== PAGE D'ABONNEMENT ============= */
+
+#abonnement_banner img {
+    /* height: 252px; */
+    width: 100%;
+}
+
+#abonnement {
+    background-color: #000;
+    padding: 10px 0px 10px 0px;
+}
+
+#abonnement .abonnement-title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#abonnement .abonnement-title-mobile {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* °°°°°°°°°°° CHOIX DES PACKS °°°°°°°° */
+#pack-section {
+    margin-top: 100px;
+}
+
+.pack-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pack-title-mobile {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#pack-section .ligne-bleu {
+    width: 100%;
+    height: 10px;
+    background-color: #108757;
+}
+
+#pack-section input,
+#pack-section textarea,
+#pack-section select {
+    background-color: #E4E4E4;
+    padding: 10px;
+}
+
+#pack-section input::placeholder,
+#pack-section select,
+#pack-section textarea::placeholder {
+    font-style: italic;
+    color: #000;
+    padding: 10px;
+    font-weight: 200;
+}
+
+#pack-section .pack-submit {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 03px 30px 08px 30px;
+    text-align: center;
+}
+
+#pack-section .pack-submit img {
+    width: 20px !important;
+}
+
+#pack-section .pack-submit-mobile {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 08px 10px 08px 10px;
+}
+
+.follow-commande-mobile {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    /* padding: 08px 10px 08px 10px; */
+}
+
+#pack-section .pack-submit-mobile img {
+    width: 20px;
+}
+
+/* Resume de paiement */
+
+#pack-section .resume-paiement {
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 30px;
+}
+
+#pack-section .resume-paiement-mobile {
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 30px;
+}
+
+#pack-section .pack-choosen {
+    color: #108757;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#pack-section .content {
+    color: #000;
+}
+
+.detail-paiement li {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 30px;
+}
+
+.resume-account span {
+    color: #707070;
+}
+
+.resume-account .span2 {
+    color: #707070;
+    font-weight: bold;
+}
+
+.resume-account .title {
+    color: #108757;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.resume-account .title-mobile {
+    color: #108757;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resume-account .content {
+    background-color: #F7B2B6;
+    padding: 20px;
+}
+
+
+/* °°°°°°°°°°°°°°PAGE FAI PROFIL °°°°°°°°°°°°°°°° */
+
+
+#fai-profil img {
+    width: 100%;
+    height: 334px;
+}
+
+#section-after-banner img {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50px;
+    margin-top: -100px;
+}
+
+#section-after-banner .fai-name {
+    color: #212121;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#section-after-banner .status {
+    color: #212121;
+    font-size: 25px;
+}
+
+#section-after-banner .note {
+    color: #E92D38;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #E92D38;
+    padding: 10px 30px 10px 30px;
+}
+
+#section-after-banner .note-mobile {
+    color: #E92D38;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #E92D38;
+    padding: 10px 30px 10px 30px;
+}
+
+#section-after-banner .contact {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+
+#section-after-banner .contact-mobile {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+
+/* °°°°°°°°°°°°° ABOUT US SECTION °°°°°°°°°°°°°°°°°°°°° */
+#about-us {
+    margin-top: 100px;
+}
+
+#about-us .title {
+    color: #108757;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#about-us .title-mobile {
+    color: #108757;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about-us .col {
+    background-color: #E4E4E4;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+#about-us .col-start {
+    background-color: #E4E4E4;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#about-us .content {
+    color: #212121;
+}
+
+#about-us .info-title {
+    color: #E92D38;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#about-us .list-group-item {
+    background-color: transparent !important;
+    color: #212121 !important;
+}
+
+.stars span {
+    font-size: 10px;
+}
+
+.stars-mobile span {
+    font-size: 8px;
+}
+
+.stars img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.stars-mobile img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+#about-us .icon {
+    width: 15px;
+}
+
+/* section de recherche */
+
+.fai-profil-search .company-action-title {
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fai-profil-search .company-action-title-mobile {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fai-profil-search .block-content {
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.fai-profil-search .block-content-reabonnement {
+    padding: 50px 20px 50px 20px !important;
+}
+
+.fai-profil-search .block-content2 {
+    color: #fff;
+}
+
+.fai-profil-search .block-content .title {
+    font-size: 45px;
+}
+
+.fai-profil-search .block-content .title-mobile {
+    font-size: 20px;
+}
+
+.fai-profil-search .block-content1,
+.block-content3 {
+    background-color: #FAF4E2;
+}
+
+.fai-profil-search .block-content2 {
+    background-color: #E92D38;
+}
+
+.fai-profil-search .block-content .price {
+    text-align: center;
+    font-size: 81px;
+}
+
+.fai-profil-search .block-content .price-mobile {
+    text-align: center;
+    font-size: 40px;
+}
+
+.fai-profil-search .li {
+    font-size: 28px;
+}
+
+.fai-profil-search .block-content a,
+.fai-profil-search .block-content .block-content-reabonnement a {
+    text-align: center;
+    font-size: 27px;
+    /* padding: 10px 30px 10px 30px; */
+    margin-top: 10px;
+}
+
+.fai-profil-search .block-content1 a,
+.fai-profil-search .block-content3 a {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+    background-color: #EDEDED;
+    color: #000;
+}
+
+.fai-profil-search .block-content1 a.mobile,
+.fai-profil-search .block-content3 a.mobile {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #EDEDED;
+    color: #000;
+}
+
+.fai-profil-search .block-content2 a.mobile {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #000;
+}
+
+/* section commentaire */
+
+#comment-section {
+    margin-top: 50px;
+}
+
+#comment-section .form-content {
+    /* border-top: #707070 solid 3px; */
+    padding-top: 50px;
+}
+
+#comment-section .comment-title {
+    color: #2D2D2D;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#comment-section .comment-title-mobile {
+    color: #2D2D2D;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#comment-section form input,
+#comment-section form textarea {
+    background-color: #F2F4F8;
+}
+
+#comment-section form input::placeholder,
+#comment-section form textarea::placeholder {
+    color: #000;
+    font-size: 15px;
+}
+
+#comment-section form {
+    color: #000;
+    font-style: italic;
+}
+
+#comment-section form button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+
+#probleme.fai-profil-section {
+    border-bottom: 2px solid;
+    color: #707070;
+    padding-bottom: 100px;
+}
+
+#fai-servers.fai-profil .fai-profil-title {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+
+#fai-servers.fai-profil .fai-profil-title-mobile {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* rating */
+.rating-css div {
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.rating-css input {
+    display: none;
+}
+
+.rating-css input+label {
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #8f8420;
+    cursor: pointer;
+}
+
+.rating-css input:checked+label~label {
+    color: #b4afaf;
+}
+
+.rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+
+label.fa-star {
+    font-size: 20px !important;
+    color: #ffe400;
+}
+
+/* End of Star Rating */
+
+
+
+
+
+
+
+
+
+/* °°°°°°°°°°°°°° FOOTER SECTION SUR LES ORDINATEURS°°°°°°°°°°°°°°°°°° */
+#footer-section {
+    margin-top: 100px;
+}
+
+#footer-section .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer-section .footer-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer-section .footer-search-input {
+    border-radius: 30px;
+    padding: 10px 30px 10px 50px;
+}
+
+
+
+#footer-section .footer-search-input::placeholder {
+    color: #108757;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+
+#footer-section .footer-search-boutton {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+/* °°°°°°°°°°°°° FOOTER DARK SECTION °°°°°°°°°°°°° */
+#footer-dark-session img {
+    width: 312px;
+    margin-top: 20px;
+}
+
+#footer-dark-session {
+    background-color: rgba(0, 0, 0, 0.88);
+}
+
+#footer-dark-session .uk-list {
+    margin-top: 20px;
+}
+
+#footer-dark-session .uk-list li {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#footer-dark-session .col-md-3 {
+    border-left: #fff solid 2px;
+}
+
+
+
+/* °°°°°°°°°°°°°° FOOTER SECTION SUR LES MOBILES °°°°°°°°°°°°°°°°°° */
+#footer-section-mobile {
+    margin-top: 100px;
+}
+
+#footer-section-mobile .container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-section-mobile .footer-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer-section-mobile .footer-search-input {
+    border-radius: 15px;
+    padding: 10px 15px 10px 10px;
+}
+
+#footer-section-mobile .footer-search-input::placeholder {
+    color: #108757;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#footer-section-mobile .footer-search-boutton {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px 5px 10px;
+    border-radius: 30px;
+}
+
+
+/* °°°°°°°°°°°°° FOOTER DARK SECTION °°°°°°°°°°°°° */
+#footer-dark-session-mobile img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+#footer-dark-session-mobile {
+    background-color: rgba(0, 0, 0, 0.88);
+}
+
+#footer-dark-session-mobile .uk-list {
+    margin-top: 20px;
+}
+
+#footer-dark-session-mobile .uk-list li {
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#footer-dark-session-mobile .col-6 {
+    border-left: #fff solid 2px;
+}
+
+
+
+/*================== FAI CARD ================*/
+
+#fai_card {
+    margin-top: 50px;
+}
+
+#fai_card .fai-section {
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+#fai_card .fai-section img {
+    border-radius: 5px;
+    height: 100% !important;
+
+}
+
+#fai_card .fai-titre {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fai_card .fai-titre-mobile {
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#fai_card .fai-description {
+    color: #000;
+
+}
+
+#fai_card .fai-description-mobile {
+    color: #000;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+
+#fai_card .dispo span {
+    padding: 5px 15px 5px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#fai_card .span-mobile {
+    padding: 10px 10px 10px 10px;
+    width: 15px;
+    height: 5px;
+    border-radius: 20%;
+    background-color: #108757;
+    margin-right: 15px;
+}
+
+#fai_card .available span {
+    padding: 5px 15px 5px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #108757;
+}
+
+
+#fai_card .buzy span {
+    padding: 5px 15px 5px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E92D38;
+}
+
+#fai_card .bouton {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+#fai_card .bouton-mobile {
+    color: white;
+    font-size: 10px;
+    /* font-weight: bold; */
+    padding: 5px 10px 5px 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -10px;
+}
