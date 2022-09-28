@@ -351,6 +351,7 @@
     <script src="{{asset('fichiers/bootstrap.js')}}"></script>
     <script src="{{asset('fichiers/uikit.js')}}"></script>
     <script src="https://cdn.kkiapay.me/k.js"></script>
+
 </body>
 
 </html>

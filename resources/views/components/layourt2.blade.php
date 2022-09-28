@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="{{asset('fichiers/suivi-de-commande.css')}}">
     <link rel="stylesheet" href="{{asset('fichiers/inscription.css')}}">
 
-   
     <title>CONNECT.BJ</title>
 </head>
 
@@ -21,6 +20,8 @@
         <!-- ============= HEADER ======================= -->
 
         <!-- SECTION NOIR  -->
+             
+     
 
         <div class="row" id="black-section">
             <div class="col-md-12">
@@ -309,6 +310,7 @@
     <script src="{{asset('../fichiers/bootstrap.js')}}"></script>
     <script src="{{asset('../fichiers/uikit.js')}}"></script>
     <script src="https://cdn.kkiapay.me/k.js"></script>
+
 </body>
 
 </html>

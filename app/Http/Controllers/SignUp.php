@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\SignUpValidation;
 use App\Models\User;
+use App\Mail\Inscription;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class SignUp extends Controller
 {
@@ -14,6 +16,17 @@ class SignUp extends Controller
     public function index()
     {
         return view('inscription');
+    }
+
+    public function sendmailTest()
+    {
+        // ENVOIE DE MAIL DE CONFIRMATION
+
+        $data = ['firstname'=>'GOGO','lastname'=>'Christian'];
+
+        Mail::to('gogochristian009@gmail.com')->send(new Inscription($data));
+
+        return "Mail envoyé avec succès";
     }
 
     // STORE INSCRIPTION
@@ -40,6 +53,10 @@ class SignUp extends Controller
 
         // ENREGISTREMENT DE L'UTILISATEUR
         User::create($formFields);
+
+        // ENVOIE DE MAIL DE CONFIRMATION
+
+        Mail::to($request->email)->send(new Inscription($formFields));
 
         return redirect('/connexion')->with('success', 'Vous êtes enregistré avec succès!');
     }

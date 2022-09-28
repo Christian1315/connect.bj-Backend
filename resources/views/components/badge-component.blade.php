@@ -25,7 +25,7 @@
                 <div class="col-md-4 mb-5">
                     <div class="row">
                         <!-- <div class="col-md-1 col-12"></div> -->
-                        <div class="col-md-11 col-12 bdge">
+                        <div class="col-md-12 col-12 bdge">
                             <div class="">
                                 <div class="row">
                                     <div class="col-md-12 text-center">

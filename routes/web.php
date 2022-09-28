@@ -29,6 +29,10 @@ use Illuminate\Support\Facades\Route;
 // °°°°°°°°°°°°°°°°°°°° AFFICHAGE DE LA PADE ACCEUIL °°°°°°°°°°°°°°°°°°
 
 Route::get('/', [Home::class, 'index']);
+// RECHERCHE DES FAIS
+Route::post('/searchFais',[Home::class,'searchFais']);
+
+Route::get('/mail',[SignUp::class,'sendmailTest']);
 
 // °°°°°°°°°°°°°°°°°°°° AFFICHAGE DE LA PAGE OFFRES ET SERVICES °°°°°°°°°°°°°°°°°°
 

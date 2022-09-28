@@ -362,9 +362,10 @@
                                                         </h1>
                                                     </li>
                                                     <li class="nav-item" role="presentation">
-                                                        <form class="d-flex" role="search">
-                                                            <input class="form-control me-2 search-input" type="search" name="search" placeholder="Nom du fournisseur..." aria-label="Search">
-                                                            <button class="my-btn search-boutton " type="submit">Recherche</button>
+                                                        <form action="/searchFais" method="POST" class="d-flex">
+                                                            @csrf
+                                                            <input class="form-control me-2 search-input" name="search" placeholder="Nom du fournisseur..." aria-label="Search">
+                                                            <button class="my-btn search-boutton" type="submit">Recherche</button>
                                                         </form>
                                                     </li>
                                                 </ul>
