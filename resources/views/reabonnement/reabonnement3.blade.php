@@ -152,25 +152,32 @@
                                 </div>
 
 
-                                <!-- Afficahge sur les ordinateurs -->
+                                <!-- Afficahge sur les ordinateurs & mobiles -->
                                 <div class="row">
-                                    <div class="col-md-6 d-none d-xs-none d-sm-none d-md-block d-lg-block">
-                                        <a href="/reabonnement2" class="my-btn bg-red float-end pack-submit mt-2">
-                                            <img src="../icons/preview.png" alt="" srcset="">
-                                            Retour
-                                        </a>
+                                    <div class="col-sm-3"></div>
+                                    <div class="col-sm-6 text-center">
+                                        <div class="row">
+                                            <div class="col-md-6" style="margin-bottom: 20px!important;">
+                                                <a href="/abonnement2" class="my-btn bg-red pack-submit">
+                                                    <img src="../icons/preview.png" alt="" srcset="">
+                                                    Retour
+                                                </a>
+                                            </div>
+                                            <br>
+                                            <div class="col-md-6">
+                                                @php
+                                                $price=$pack_price;
+                                                $back="reabonnement4"
+                                                @endphp
+                                                <x-paiement :price="$price" :back="$back"></x-paiement>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6 d-none d-xs-none d-sm-none d-md-block d-lg-block">
-                                        @php
-                                        $price=$pack_price;
-                                        $back="reabonnement4"
-                                        @endphp
-                                        <x-paiement :price="$price" :back="$back"></x-paiement>
-                                    </div>
+                                    <div class="col-sm-3"></div>
                                 </div>
 
                                 <!-- Afficahge sur les mobile -->
-                                <div class="row mt-2 d-md-none d-sm-block d-xs-block">
+                                <!-- <div class="row mt-2 d-md-none d-sm-block d-xs-block">
                                     <div class="col-md-6 text-center">
                                         <a href="/reabonnement2" class="my-btn bg-red pack-submit-mobile mt-2">
                                             <img src="../icons/preview.png" width="25px" alt="" srcset="">
@@ -184,7 +191,7 @@
                                         @endphp
                                         <x-paiement :price="$price" :back="$back"></x-paiement>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-md-1"></div>
                         </div>
@@ -214,3 +221,9 @@
     <x-partner-section></x-partner-section>
 
 </x-layourt2>
+
+<!-- CNAME 96mMKnfPA1PbqH6VfU2bWaUA.innov-prime.com -> smtp.mailtrap.live
+TXT innov-prime.com -> v=spf1 ip4:109.234.162.249 +a +mx +include:spf.jabatus.fr include:_spf.smtp.mailtrap.live ~all
+CNAME rwmt1._domainkey.innov-prime.com -> rwmt1.dkim.smtp.mailtrap.live
+CNAME rwmt2._domainkey.innov-prime.com -> rwmt2.dkim.smtp.mailtrap.live
+TXT _dmarc.innov-prime.com -> v=DMARC1; p=none; rua=mailto:dmarc@smtp.mailtrap.live; ruf=mailto:dmarc@smtp.mailtrap.live; rf=afrf; pct=100 -->

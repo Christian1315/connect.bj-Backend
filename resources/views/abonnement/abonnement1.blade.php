@@ -97,15 +97,15 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <!-- Afficahge sur les ordinateurs -->
-                                        <button type="submit" type="submit" class="my-btn bg-yellow pack-submit mt-2 d-none d-xs-none d-sm-none d-md-block d-lg-block">
+                                        <button type="submit" type="submit" class="my-btn bg-yellow pack-submit mt-2 ">
                                             suivant
                                             <img src="../icons/Icon material-skip-next.png" alt="" srcset="">
                                         </button>
                                         <!-- Afficahge sur les mobiles -->
-                                        <submit type="submit" type="submit" class="my-btn bg-yellow pack-submit-mobile mt-2 d-md-none d-sm-block d-xs-block">
+                                        <!-- <submit type="submit" type="submit" class="my-btn bg-yellow pack-submit-mobile mt-2 d-md-none d-sm-block d-xs-block">
                                             suivant
                                             <img src="../icons/Icon material-skip-next.png" alt="" srcset="">
-                                        </submit>
+                                        </submit> -->
                                     </div>
                                     <div class="col-md-6"></div>
                                 </div>

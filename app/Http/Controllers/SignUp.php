@@ -22,7 +22,7 @@ class SignUp extends Controller
     {
         // ENVOIE DE MAIL DE CONFIRMATION
 
-        $data = ['firstname'=>'GOGO','lastname'=>'Christian'];
+        $data = ['firstname' => 'GOGO', 'lastname' => 'Christian'];
 
         Mail::to('gogochristian009@gmail.com')->send(new Inscription($data));
 
@@ -36,7 +36,7 @@ class SignUp extends Controller
         $password_encrypted = Crypt::encryptString($request->password);
 
         // HASHER LE PASSWORD DE L'UTILISATEUR
-        $passwordHashed =Hash::make($request->password);
+        $passwordHashed = Hash::make($request->password);
 
 
         $formFields = [
@@ -55,7 +55,7 @@ class SignUp extends Controller
         User::create($formFields);
 
         // ENVOIE DE MAIL DE CONFIRMATION
-
+        // dd($formFields);
         Mail::to($request->email)->send(new Inscription($formFields));
 
         return redirect('/connexion')->with('success', 'Vous êtes enregistré avec succès!');

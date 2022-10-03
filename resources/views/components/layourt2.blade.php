@@ -49,9 +49,12 @@
                                                 @endguest
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/sign-up">
-                                                    <img class="icon img-fluid" src="{{asset('../icons/customer.png')}}" alt="">
+                                                @guest
+                                                <a href="/sign-up" class="nav-link">
+                                                    <img class="icon img-fluid" src="{{asset('icons/customer.png')}}" alt="">
                                                     Espace client</a>
+
+                                                @endguest
                                             </li>
                                         </ul>
                                     </div>

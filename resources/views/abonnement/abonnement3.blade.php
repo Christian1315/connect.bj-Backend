@@ -156,25 +156,32 @@
                                 </div>
 
 
-                                <!-- Afficahge sur les ordinateurs -->
+                                <!-- Afficahge sur les ordinateurs & mobiles -->
                                 <div class="row">
-                                    <div class="col-md-6 d-none d-xs-none d-sm-none d-md-block d-lg-block">
-                                        <a href="/abonnement2" class="my-btn bg-red float-end pack-submit mt-2">
-                                            <img src="../icons/preview.png" alt="" srcset="">
-                                            Retour
-                                        </a>
+                                    <div class="col-sm-3"></div>
+                                    <div class="col-sm-6 text-center">
+                                        <div class="row">
+                                            <div class="col-md-6" style="margin-bottom: 20px!important;">
+                                                <a href="/abonnement2" class="my-btn bg-red pack-submit">
+                                                    <img src="../icons/preview.png" alt="" srcset="">
+                                                    Retour
+                                                </a>
+                                            </div>
+                                            <br>
+                                            <div class="col-md-6">
+                                                @php
+                                                $price=$pack_price;
+                                                $back="abonnement4"
+                                                @endphp
+                                                <x-paiement :price="$price" :back="$back"></x-paiement>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6 d-none d-xs-none d-sm-none d-md-block d-lg-block">
-                                        @php
-                                        $price=$pack_price;
-                                        $back="abonnement4"
-                                        @endphp
-                                        <x-paiement :price="$price" :back="$back"></x-paiement>
-                                    </div>
+                                    <div class="col-sm-3"></div>
                                 </div>
 
                                 <!-- Afficahge sur les mobile -->
-                                <div class="row mt-2 d-md-none d-sm-block d-xs-block">
+                                <!-- <div class="row mt-2 d-md-none d-sm-block d-xs-block">
                                     <div class="col-md-6 text-center">
                                         <a href="/abonnement2" class="my-btn bg-red pack-submit-mobile mt-2">
                                             <img src="../icons/preview.png" width="25px" alt="" srcset="">
@@ -188,7 +195,7 @@
                                         @endphp
                                         <x-paiement :price="$price" :back="$back"></x-paiement>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-md-1"></div>
                         </div>

@@ -22,8 +22,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-                            <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid">
+                        <!-- SUR LES ORDINATEURS -->
+                        <div class="uk-position-relative uk-visible-toggle uk-light d-none d-xs-none d-sm-none d-md-block d-lg-block" tabindex="-1" uk-slider>
+                            <ul class="uk-slider-items uk-child-width-1 uk-child-width-1-5@m uk-grid">
                                 <li>
                                     <div class="uk-panel">
                                         <img src="img/abc.png" alt="">
@@ -70,6 +71,56 @@
                             <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                             <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
                         </div>
+                        <!-- SUR LES MOBILES -->
+                        <div class="uk-position-relative uk-visible-toggle uk-light d-md-none d-sm-block d-xs-block" tabindex="-1" uk-slider="autoplay: true">
+                            <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid">
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="img/abc.png" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="img/telecome1.png" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="img/jeny.png" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="img/sbin2.png" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="img/via2.png" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="img/wb1.png" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a> -->
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -310,13 +361,13 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
 
                 <!-- SECTION FONCTIONNEMENT -->
-               <x-video-section-component></x-video-section-component>
+                <x-video-section-component></x-video-section-component>
             </div>
         </div>
     </div>

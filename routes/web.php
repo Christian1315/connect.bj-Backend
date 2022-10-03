@@ -30,6 +30,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Home::class, 'index']);
 // RECHERCHE DES FAIS
+
 Route::post('/searchFais',[Home::class,'searchFais']);
 
 Route::get('/mail',[SignUp::class,'sendmailTest']);
