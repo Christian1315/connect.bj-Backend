@@ -35,6 +35,7 @@ Route::post('/searchFais',[Home::class,'searchFais']);
 
 Route::get('/mail',[SignUp::class,'sendmailTest']);
 
+
 // °°°°°°°°°°°°°°°°°°°° AFFICHAGE DE LA PAGE OFFRES ET SERVICES °°°°°°°°°°°°°°°°°°
 
 Route::get('/offres-services', [OffreService::class, 'index']);

@@ -28,12 +28,13 @@
             <div class="col-md-6 mx-auto">
 
                 <img src="{{asset('LOGOS/LOCO CONNECT PNG_croked.png')}}" width="200px" alt="" srcset="">
-                <h1 class="text-center text-success" style="color:#108757">Votre inscription a été validée</h1>
+                <h1 class="text-center text-success" style="color:#108757">Votre Commande a été reçue avec succès</h1>
                 <h4 class="text-center text-danger">Salut {{$data['firstname']}}</h4>
                 <p class="text-center">
-                Votre inscription a été faite avec succès! <br><br><br>    
-                </p>
-
+                Merci pour votre commande. Nous vous informons que le traitement de votre commande prends effet immédiatement <br><br><br>   
+                
+                Votre code de suivi est: <strong style="color:red">{{$data['followCode']}}</strong>
+            </p>
                 <a href="http://dev.innov-prime.com/" class="btn-lg btn-success" style="background-color: #108757;">Visitez notre site</a>
             </div>
         </div>

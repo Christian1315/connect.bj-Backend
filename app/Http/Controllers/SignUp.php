@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\SignUpValidation;
+use App\Mail\Commande;
 use App\Models\User;
 use App\Mail\Inscription;
 use Illuminate\Http\Request;
@@ -22,10 +23,9 @@ class SignUp extends Controller
     {
         // ENVOIE DE MAIL DE CONFIRMATION
 
-        $data = ['firstname' => 'GOGO', 'lastname' => 'Christian'];
+        $data = ['firstname' => 'GOGO', 'lastname' => 'Christian','followCode'=>'ffff9633258'];
 
         Mail::to('gogochristian009@gmail.com')->send(new Inscription($data));
-
         return "Mail envoyé avec succès";
     }
 

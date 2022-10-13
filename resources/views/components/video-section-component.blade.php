@@ -17,10 +17,9 @@
 
 
                     <p class="work-content">
-                        Lorem ipsum dolor sit amet, consectetur <br>
-                        adipiscing elit, sed do eiusmod tempor <br>
-                        incididunt ut labore et dolore magna <br>
-                        aliqua. Ut enim ad minim veniam
+                        Il n’a jamais été aussi facile d’accéder <br>
+                        à sa connexion internet. Découvrez <br>
+                        comment ça marche. 
                     </p>
 
                     <a href="/contact" class="my-btn bg-yellow work-boutton">Comment ça marche?</a>

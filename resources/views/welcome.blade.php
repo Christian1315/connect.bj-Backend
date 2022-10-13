@@ -130,3 +130,20 @@
         </div>
     </body>
 </html>
+
+
+<!--=== MAILTRAP INFOS=== -->
+
+<!-- Name===>96mMKnfPA1PbqH6VfU2bWaUA.innov-prime.com. |  Type====>CNAME  | Enregistrement====> smtp.mailtrap.live
+Name===>innov-prime.com.                          |  Type====>TXT    | Enregistrement====> v=spf1 ip4:109.234.162.249 +a +mx +include:spf.jabatus.fr include:_spf.smtp.mailtrap.live ~all
+Name===>rwmt1._domainkey.innov-prime.com.         |  Type====>CNAME  | Enregistrement====> rwmt1.dkim.smtp.mailtrap.live
+Name===>rwmt2._domainkey.innov-prime.com.         |  Type====>CNAME  | Enregistrement====> rwmt2.dkim.smtp.mailtrap.live
+Name===>_dmarc.innov-prime.com.                   |  Type====>TXT    | Enregistrement====> v=DMARC1; p=none; rua=mailto:dmarc@smtp.mailtrap.live; ruf=mailto:dmarc@smtp.mailtrap.live; rf=afrf; pct=100 -->
+
+<!-- CNAME z1gEtaz8jQD2GSBJw6JioUmL.connect.bj -> smtp.mailtrap.live
+TXT connect.bj -> v=spf1 ip4:109.234.162.249 +a +mx +include:spf.jabatus.fr include:_spf.smtp.mailtrap.live ~all
+CNAME rwmt1._domainkey.connect.bj -> rwmt1.dkim.smtp.mailtrap.live
+CNAME rwmt2._domainkey.connect.bj -> rwmt2.dkim.smtp.mailtrap.live
+TXT _dmarc.connect.bj -> v=DMARC1; p=none; rua=mailto:dmarc@smtp.mailtrap.live; ruf=mailto:dmarc@smtp.mailtrap.live; rf=afrf; pct=100 -->
+
+

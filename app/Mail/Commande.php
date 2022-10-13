@@ -3,10 +3,11 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class Inscription extends Mailable
+class Commande extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -14,8 +15,8 @@ class Inscription extends Mailable
      * Create a new message instance.
      *
      * @return void
-     * 
      */
+    
     public $data=[];
 
     public function __construct($data)
@@ -30,7 +31,7 @@ class Inscription extends Mailable
      */
     public function build()
     {
-        return $this->subject("Inscription validée")
-                    ->view('emails.inscription');
+        return $this->subject("Commande validée")
+                    ->view('emails.commande');
     }
 }

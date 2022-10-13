@@ -15,8 +15,7 @@
                             </div>
                             <h1 class="badge-title">SÉCURITÉ</h1>
                             <p class="badge-content">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been.
+                                Sur connect.bj, soyez en confiance absolue. Nous vous garantissons votre sécurité tout au long de votre parcours.
                             </p>
                         </div>
                         <div class="col-md-1 col-12"></div>
@@ -35,8 +34,7 @@
                             </div>
                             <h1 class="badge-title">SERVICE</h1>
                             <p class="badge-content">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been.
+                                Connect.bj vous rend la vie plus facile. Accédez à une connexion haut débit rassurante en un seul clic.
                             </p>
                         </div>
                         <div class="col-md-1 col-12"></div>
@@ -53,8 +51,7 @@
                             </div>
                             <h1 class="badge-title">SIGNALÉ</h1>
                             <p class="badge-content">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been.
+                                Nous restons aux aguets. N’hésitez surtout pas à nous faire part de vos préoccupations.
                             </p>
                         </div>
                         <!-- <div class="col-md-1 col-12"></div> -->

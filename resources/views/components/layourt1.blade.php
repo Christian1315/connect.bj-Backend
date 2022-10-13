@@ -39,6 +39,8 @@
     </style>
 
     <title>CONNECT.BJ</title>
+
+    @livewireStyles
 </head>
 
 <body>
@@ -354,6 +356,7 @@
     <script src="{{asset('fichiers/uikit.js')}}"></script>
     <script src="https://cdn.kkiapay.me/k.js"></script>
 
+    @livewireScripts
 </body>
 
 </html>
