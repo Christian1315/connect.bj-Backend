@@ -30,7 +30,7 @@ class Inscription extends Mailable
      */
     public function build()
     {
-        return $this->subject("Inscription validée")
+        return $this->subject("Vos actions sur connect . bj")
                     ->view('emails.inscription');
     }
 }

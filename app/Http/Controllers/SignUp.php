@@ -23,7 +23,17 @@ class SignUp extends Controller
     {
         // ENVOIE DE MAIL DE CONFIRMATION
 
-        $data = ['firstname' => 'GOGO', 'lastname' => 'Christian','followCode'=>'ffff9633258'];
+        // $data = [
+        //     'firstname' => 'GOGO', 
+        //     'lastname' => 'Christian',
+        //     'followCode'=>'ffff9633258'
+        // ];
+
+        $data = [
+            'name'=> 'GOGO',
+            'header'=> 'Inscription sur connect . bj',
+            'message'=> 'Votre inscription a été faite avec succès!!',
+        ];
 
         Mail::to('gogochristian009@gmail.com')->send(new Inscription($data));
         return "Mail envoyé avec succès";
@@ -55,8 +65,14 @@ class SignUp extends Controller
         User::create($formFields);
 
         // ENVOIE DE MAIL DE CONFIRMATION
-        // dd($formFields);
-        Mail::to($request->email)->send(new Inscription($formFields));
+
+        $data = [
+            'name'=> $request->firstname,
+            'header'=> 'Inscription sur connect . bj',
+            'message'=> 'Votre inscription a été faite avec succès!!',
+        ];
+       
+        Mail::to($request->email)->send(new Inscription($data));
 
         return redirect('/connexion')->with('success', 'Vous êtes enregistré avec succès!');
     }

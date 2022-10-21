@@ -7,6 +7,8 @@ use App\Models\Follow;
 use App\Models\Pack;
 use App\Models\Reabonnement as ModelsReabonnement;
 use Illuminate\Http\Request;
+use App\Mail\Inscription;
+use Illuminate\Support\Facades\Mail;
 
 class Reabonnement extends Controller
 {
@@ -163,6 +165,15 @@ class Reabonnement extends Controller
                 ]);
             }
 
+            $data = [
+                'name'=> $reabonnement_datas['username'],
+                'header'=> 'Votre Réabonnement sur connect . bj',
+                'message'=> "Votre Réabonnement a été fait avec succès!! Votre code de suivi: $follow_code"
+            ];
+           
+            // ENVOIE DE MAIL DE CONFIRMATION
+            Mail::to($reabonnement_datas['user_email'])->send(new Inscription($data));
+            
             return view('reabonnement.reabonnement4', compact('follow_code'));
         }
 

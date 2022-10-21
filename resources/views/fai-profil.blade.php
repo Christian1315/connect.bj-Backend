@@ -524,9 +524,11 @@
             <div class="row" id="fai_card">
                 <div class="col-12">
                     <div class="container" uk-scrollspy="cls: uk-animation-fade; target: .fai-block; delay: 500; repeat: false">
-                        @foreach($fais as $fai)
-                        <x-fai-component :fai="$fai"></x-fai-component>
-                        @endforeach
+                        <div class="row">
+                            @foreach($fais as $fai)
+                            <x-fai-component :fai="$fai"></x-fai-component>
+                            @endforeach
+                        </div>
                     </div>
 
                 </div>

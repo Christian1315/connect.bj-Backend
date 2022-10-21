@@ -7,6 +7,9 @@ use App\Models\Fai;
 use App\Models\Follow;
 use App\Models\Pack;
 use Illuminate\Http\Request;
+use App\Mail\Inscription;
+use Illuminate\Support\Facades\Mail;
+
 
 class Abonnement extends Controller
 {
@@ -169,9 +172,16 @@ class Abonnement extends Controller
                 ]);
             }
 
+            // ENVOIE DE MAIL DE CONFIRMATION
+            $data = [
+                'name'=> $abonnement_datas['username'],
+                'header'=> 'Votre Abonnement sur connect . bj',
+                'message'=> "Votre Abonnement a été fait avec succès!! Votre code de suivi: $follow_code"
+            ];
+           
+            Mail::to($abonnement_datas['user_email'])->send(new Inscription($data));
             return view('abonnement.abonnement4', compact('follow_code'));
         }
-
         return redirect('/')->with('error', "Echec d'abonnement! Veuillez réessayer!");
     }
 }

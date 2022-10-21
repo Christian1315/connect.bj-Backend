@@ -1297,23 +1297,23 @@ label.fa-star {
 
 
 
+
 /*================== FAI CARD ================*/
 
 #fai_card {
     margin-top: 50px;
 }
 
+.card,.card img{
+    border-radius: 20px!important;
+}
+
+
 #fai_card .fai-section {
     background-color: #EFEFEF;
     border-radius: 10px;
     margin-bottom: 20px;
-
-}
-
-#fai_card .fai-section img {
-    border-radius: 5px;
-    height: 100% !important;
-
+    
 }
 
 #fai_card .fai-titre {
@@ -1325,63 +1325,18 @@ label.fa-star {
 #fai_card .fai-titre-mobile {
     color: #000;
     font-size: 15px;
-    text-align: center;
     font-weight: bold;
 }
 
 #fai_card .fai-description {
     color: #000;
-
+    
 }
 
 #fai_card .fai-description-mobile {
     color: #000;
     margin-top: -20px;
-    margin-bottom: -20px;
-    text-align: center;
-}
-
-
-#fai_card .dispo span {
-    padding: 5px 15px 5px 15px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-
-#fai_card .span-mobile {
-    padding: 10px 10px 10px 10px;
-    width: 15px;
-    height: 5px;
-    border-radius: 20%;
-    background-color: #108757;
-    margin-right: 15px;
-}
-
-#fai_card .available span {
-    padding: 5px 15px 5px 15px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #108757;
-}
-
-
-#fai_card .buzy span {
-    padding: 5px 15px 5px 15px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #E92D38;
-}
-
-#fai_card .bouton {
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
+    margin-bottom: -10px;
 }
 
 #fai_card .bouton-mobile {
