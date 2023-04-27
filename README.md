@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# connect_dev
-Projet connect.bj
-=======
-# README
 
 ## POURQUOI CONNECT.BJ
 
@@ -50,4 +45,3 @@ Démarrer le serveur en développement
 
 ==== DEMARRAGE REEL DU PROJET ============
 $ php artisan serve
->>>>>>> Version1_Modif
