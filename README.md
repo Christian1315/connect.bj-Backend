@@ -12,8 +12,8 @@ CONNECT.BJ, vise à offrir un service de connection 100% qui met en relation des
 
 Accéder au projet
 ```bash
-$ git clone https://github.com/Innov-Prime/connect_dev.git
-$ cd connect_dev
+$ git clone https://github.com/Christian1315/connect.bj-Backend.git
+$ cd connect.bj-Backend
 
 ```
 Installer les dépendances
