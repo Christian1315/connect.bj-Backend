@@ -1,0 +1,378 @@
+/* ======= GENERAL ========= */
+* {
+    font-family: 'Poppins';
+}
+
+.bg-green {
+    background-color: #108757;
+}
+
+.text-green {
+    color: #108757;
+}
+
+.bg-red {
+    background-color: #E92D38;
+}
+
+.text-red {
+    color: #E92D38;
+}
+
+.text-red {
+    color: #E92D38;
+}
+
+.bg-yellow {
+    background-color: #FBD142;
+}
+
+.my-btn {
+    border-radius: 30px;
+    border-color: transparent;
+}
+
+/* ======= PAGE D'ACCEUIL ========= */
+
+/* °°°°°°°°°°°°°°°°° HEADER °°°°°°°°°°°°°° */
+
+/* ++++++ SOUS  SECTION NOIR +++++++++ */
+#black-section {
+    background-color: #000;
+}
+
+#black-section a {
+    color: #fff;
+    font-size: 14px;
+}
+
+#black-section a img.icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* ++++++ SOUS  SECTION VERTE OU NAVBAR +++++++++ */
+.btn {
+    border-radius: 10px !important;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#nav-bar .navbar-toggler {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+/* .navbar-toggler-icon{
+    color:#fff;
+} */
+
+#nav-bar img.logo {
+    width: 207px;
+}
+
+#nav-bar .login {
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-bar .follow {
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* °°°°°°°°°°°°°°°° FORMULAIRE D'INSCIPTION, & DE CONTACT; & DE CONNEXION °°°°°°°°°°°°° */
+
+#sign-up .box,#login .box {
+    border-radius: 50px;
+    padding: 50px;
+}
+
+#sign-up .title, #sign-up .contact-title, #login .contact-title {
+    color: #3D3D3D;
+    font-size: 35px;
+}
+
+#sign-up .question, #login .question {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.question a{
+    text-decoration: none;
+}
+
+.question a:hover{
+    color: #108757;
+}
+
+#sign-up .contact-48h {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#sign-up .infos,#login .infos {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sign-up input,#sign-up textarea, #sign-up select, #login input {
+    background-color: #E4E4E4;
+    padding: 10px;
+}
+
+#sign-up input::placeholder,#sign-up textarea::placeholder, #sign-up select, #login input input::placeholder {
+    color: #000;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#sign-up .form-check-label {
+    font-size: 13px;
+    /* margin-top: 13px; */
+}
+#sign-up .form-check-input,#login .form-check-input{
+    background-color: #9FD5BF;
+    color: #000;
+    border-radius: 0px;
+    margin-right: 2px;
+    border-color: #108757;
+}
+
+#sign-up .form-check-input:focus, #login .form-check-input:focus{
+    background-color: #108757;
+    color: #000;
+}
+
+#sign-up .follow-submit,#login .follow-submit{
+    background-color: #108757;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    font-size: 20px;
+}
+
+#sign-up img, #login img{
+    width: 380,84px;
+    height: 361,78px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* °°°°°°°°°°°°°° FOOTER SECTION °°°°°°°°°°°°°°°°°° */
+
+#footer-section .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer-section .footer-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer-section .footer-search-input {
+    border-radius: 30px;
+    padding: 10px 30px 10px 10px;
+}
+
+#footer-section .footer-search-input::placeholder {
+    color: #108757;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#footer-section .footer-search-boutton {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 30px 5px 10px;
+    border-radius: 30px;
+}
+
+/* °°°°°°°°°°°°° BANNIERE °°°°°°°°°°°  */
+
+#folow_banner img {
+    width: 100%;
+    height: 252px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* °°°°°°°°°°°°°° FOOTER SECTION SUR LES ORDINATEURS°°°°°°°°°°°°°°°°°° */
+#footer-section {
+    margin-top: 100px;
+}
+
+#footer-section .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer-section .footer-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer-section .footer-search-input {
+    border-radius: 30px;
+    padding: 10px 30px 10px 50px;
+}
+
+#footer-section .footer-search-input::placeholder {
+    color: #108757;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#footer-section .footer-search-boutton {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+/* °°°°°°°°°°°°° FOOTER DARK SECTION °°°°°°°°°°°°° */
+#footer-dark-session img {
+    width: 312px;
+    margin-top: 20px;
+}
+
+#footer-dark-session {
+    background-color: rgba(0, 0, 0, 0.88);
+}
+
+#footer-dark-session .uk-list {
+    margin-top: 20px;
+}
+
+#footer-dark-session .uk-list li {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#footer-dark-session .col-md-3 {
+    border-left: #fff solid 2px;
+}
+
+
+
+/* °°°°°°°°°°°°°° FOOTER SECTION SUR LES MOBILES °°°°°°°°°°°°°°°°°° */
+#footer-section-mobile {
+    margin-top: 100px;
+}
+
+#footer-section-mobile .container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-section-mobile .footer-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer-section-mobile .footer-search-input {
+    border-radius: 15px;
+    padding: 10px 15px 10px 10px;
+}
+
+#footer-section-mobile .footer-search-input::placeholder {
+    color: #108757;
+    font-style: italic;
+    font-size: 10px;
+}
+
+#footer-section-mobile .footer-search-boutton {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px 5px 10px;
+    border-radius: 30px;
+}
+
+
+/* °°°°°°°°°°°°° FOOTER DARK SECTION °°°°°°°°°°°°° */
+#footer-dark-session-mobile img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+#footer-dark-session-mobile {
+    background-color: rgba(0, 0, 0, 0.88);
+}
+
+#footer-dark-session-mobile .uk-list {
+    margin-top: 20px;
+}
+
+#footer-dark-session-mobile .uk-list li {
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#footer-dark-session-mobile .col-6 {
+    border-left: #fff solid 2px;
+}
